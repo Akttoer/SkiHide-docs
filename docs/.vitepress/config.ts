@@ -1,7 +1,7 @@
 // docs/.vitepress/config.ts
 import { defineConfig } from 'vitepress';
 
-const BASE = '/SkiHide-docs/'
+const BASE = '/'
 
 export default defineConfig({
   base: BASE,
@@ -49,7 +49,7 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页',
     },
 
-    logo: '${BASE}/logo.svg',
+    logo: '/logo.svg',
 
     nav: [
       { text: '首页', link: '/' },
