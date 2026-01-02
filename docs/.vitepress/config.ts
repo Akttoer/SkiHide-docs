@@ -1,8 +1,10 @@
 // docs/.vitepress/config.ts
 import { defineConfig } from 'vitepress';
 
+const BASE = '/SkiHide-docs/'
+
 export default defineConfig({
-  base: '/SkiHide-docs/',
+  base: BASE,
   cleanUrls: true,
   title: 'SkiHide',
   description: '全局热键/鼠标侧键快速隐藏与恢复窗口的工具',
@@ -13,7 +15,9 @@ export default defineConfig({
     root: { label: '简体中文', lang: 'zh-CN' },
   },
 
-  head: [['link', { rel: 'icon', type: 'image/svg+xml', href: `${base}logo.svg?v=1` }]],
+  head: [
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: `${BASE}logo.svg?v=3` }]
+  ],
 
   themeConfig: {
     /* =====================
@@ -45,7 +49,7 @@ export default defineConfig({
       text: '在 GitHub 上编辑此页',
     },
 
-    logo: '/logo.svg',
+    logo: '${BASE}logo.svg',
 
     nav: [
       { text: '首页', link: '/' },
