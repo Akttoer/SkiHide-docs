@@ -19,7 +19,7 @@ SkiHide 是一款 Windows 工具，通过 **全局快捷键 / 鼠标侧键** 快
 
 ### 下载链接
 
-- [Github]()
+- [Github](https://github.com/Akttoer/SkiHide/releases)
 - [飞书下载]() 直接关闭登录窗口，无需登录直接下载
 - [雨云 CDN]()
 - [123 网盘]()
@@ -58,4 +58,4 @@ SkiHide 是一款 Windows 工具，通过 **全局快捷键 / 鼠标侧键** 快
 ## 更新日志 / 历史版本
 
 - [更新日志](/changelog)
-- [历史版本](/changelog) 仅限 1.3.5 以上
+- [历史版本](https://github.com/Akttoer/SkiHide/releases) 仅限 1.3.5 以上
