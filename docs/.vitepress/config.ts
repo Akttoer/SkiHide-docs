@@ -87,7 +87,6 @@ export default defineConfig({
       provider: 'local',
     },
 
-    // 大页尾（仿你提供的 Sukisu 风格截图）
     footerBrand: {
       name: 'SkiHide',
       desc: '全局热键 + 鼠标侧键，一键隐藏/恢复窗口，打造完美的摸鱼体验。',
@@ -104,16 +103,12 @@ export default defineConfig({
         ],
       },
       {
-        title: '社区',
+        title: '社区及友链',
         items: [
-          { text: 'Telegram 频道', link: 'https://t.me/your_channel' },
+          { text: '雨云', link: 'https://www.rainyun.com/Pang_' },
           {
-            text: 'GitHub 讨论区',
-            link: 'https://github.com/Akttoer/SkiHide/discussions',
-          },
-          {
-            text: '参与贡献',
-            link: 'https://github.com/Akttoer/SkiHide/blob/main/CONTRIBUTING.md',
+            text: 'QQ群',
+            link: 'https://qm.qq.com/q/FcFOf1bl0k',
           },
           {
             text: '许可协议',
