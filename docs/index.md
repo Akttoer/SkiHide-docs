@@ -6,7 +6,7 @@ hero:
   text: 让窗口隐藏更快一步
   tagline: 全局热键 + 鼠标侧键，一键隐藏/恢复游戏，致力于打造完美的摸鱼体验
   image:
-    src: /logo.svg
+    src: https://free.picui.cn/free/2026/01/04/6959c7376c000.png
     alt: SkiHide
   actions:
     - theme: brand
